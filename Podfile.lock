@@ -1,0 +1,58 @@
+PODS:
+  - Alamofire (4.9.0)
+  - IQKeyboardManagerSwift (6.5.0)
+  - Kingfisher (5.7.1)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - ObjectMapper (3.5.1)
+  - PagingMenuController (2.2.0)
+  - Player (0.13.1)
+  - SnapKit (5.0.1)
+  - SwiftyGif (5.1.1)
+  - SwiftyJSON (5.0.0)
+  - Toast-Swift (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - NVActivityIndicatorView
+  - ObjectMapper
+  - PagingMenuController
+  - Player
+  - SnapKit
+  - SwiftyGif
+  - SwiftyJSON
+  - Toast-Swift
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - PagingMenuController
+    - Player
+    - SnapKit
+    - SwiftyGif
+    - SwiftyJSON
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  IQKeyboardManagerSwift: 6cd19976c6e871907c4ed9127c2d3affdd4defc2
+  Kingfisher: 176d377ad339113c99ad4980cbae687f807e20fe
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  PagingMenuController: 6176618987bb170096664f2da097313e45ed9c31
+  Player: 29186e0d557898b0ebdab42d2e1b47e615838156
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyGif: f7702483db93586a41f04f4927cd682852a2fa10
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
+
+PODFILE CHECKSUM: 089834c57f7f2bd98a6a4673d29b35e57e557a02
+
+COCOAPODS: 1.8.3

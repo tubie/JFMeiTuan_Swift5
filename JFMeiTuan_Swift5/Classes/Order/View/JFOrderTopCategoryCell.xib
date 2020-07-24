@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="91" id="KGk-i7-Jjw" customClass="JFOrderTopCategoryCell" customModule="JFMeiTuan_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="91"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="90.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XUr-Qh-1zI">
+                        <rect key="frame" x="0.0" y="5" width="64" height="80.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <inset key="titleEdgeInsets" minX="-10" minY="25" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="25" minY="-25" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="待付款" image="edu_icon_yue_dp">
+                            <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GJ0-Zg-4Gq">
+                        <rect key="frame" x="128" y="5.5" width="64" height="80.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <inset key="titleEdgeInsets" minX="-10" minY="25" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="25" minY="-25" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="待评价" image="edu_icon_yue_dp">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gr3-jh-hlV">
+                        <rect key="frame" x="64" y="5.5" width="64" height="80.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <inset key="titleEdgeInsets" minX="-10" minY="25" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="25" minY="-25" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="待使用" image="edu_icon_yue_dp">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CU8-8P-8jQ">
+                        <rect key="frame" x="192" y="5.5" width="64" height="80.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <inset key="titleEdgeInsets" minX="-10" minY="25" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="25" minY="-25" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="退款/售后" image="edu_icon_yue_dp">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Za-OV-8u8">
+                        <rect key="frame" x="256" y="5.5" width="64" height="80.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <inset key="titleEdgeInsets" minX="-10" minY="25" maxX="0.0" maxY="0.0"/>
+                        <inset key="imageEdgeInsets" minX="25" minY="-25" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="全部订单" image="edu_icon_yue_dp">
+                            <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XUr-Qh-1zI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="2E8-4S-Xqe"/>
+                    <constraint firstItem="CU8-8P-8jQ" firstAttribute="centerY" secondItem="GJ0-Zg-4Gq" secondAttribute="centerY" id="3D2-pq-M6V"/>
+                    <constraint firstItem="gr3-jh-hlV" firstAttribute="centerY" secondItem="XUr-Qh-1zI" secondAttribute="centerY" id="4ZH-X7-hZv"/>
+                    <constraint firstItem="CU8-8P-8jQ" firstAttribute="leading" secondItem="GJ0-Zg-4Gq" secondAttribute="trailing" id="8Gz-Gp-TcF"/>
+                    <constraint firstItem="GJ0-Zg-4Gq" firstAttribute="width" secondItem="gr3-jh-hlV" secondAttribute="width" id="8zV-MT-6QQ"/>
+                    <constraint firstItem="gr3-jh-hlV" firstAttribute="width" secondItem="XUr-Qh-1zI" secondAttribute="width" id="MtR-iV-1XB"/>
+                    <constraint firstItem="GJ0-Zg-4Gq" firstAttribute="leading" secondItem="gr3-jh-hlV" secondAttribute="trailing" id="PyE-dC-Qkt"/>
+                    <constraint firstItem="0Za-OV-8u8" firstAttribute="height" secondItem="CU8-8P-8jQ" secondAttribute="height" id="QTv-lQ-mGM"/>
+                    <constraint firstItem="0Za-OV-8u8" firstAttribute="width" secondItem="CU8-8P-8jQ" secondAttribute="width" id="QaR-ja-9ro"/>
+                    <constraint firstItem="0Za-OV-8u8" firstAttribute="centerY" secondItem="CU8-8P-8jQ" secondAttribute="centerY" id="Sr1-eF-pdi"/>
+                    <constraint firstItem="0Za-OV-8u8" firstAttribute="leading" secondItem="CU8-8P-8jQ" secondAttribute="trailing" id="YKD-BI-cHc"/>
+                    <constraint firstItem="GJ0-Zg-4Gq" firstAttribute="centerY" secondItem="gr3-jh-hlV" secondAttribute="centerY" id="d75-ga-lFz"/>
+                    <constraint firstItem="XUr-Qh-1zI" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.2" id="e6O-vC-WWN"/>
+                    <constraint firstItem="gr3-jh-hlV" firstAttribute="leading" secondItem="XUr-Qh-1zI" secondAttribute="trailing" id="eAJ-MF-XJC"/>
+                    <constraint firstItem="CU8-8P-8jQ" firstAttribute="width" secondItem="GJ0-Zg-4Gq" secondAttribute="width" id="i7A-PB-aVo"/>
+                    <constraint firstItem="gr3-jh-hlV" firstAttribute="height" secondItem="XUr-Qh-1zI" secondAttribute="height" id="nsu-s9-U9Y"/>
+                    <constraint firstItem="XUr-Qh-1zI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="rDN-7j-4sb"/>
+                    <constraint firstItem="GJ0-Zg-4Gq" firstAttribute="height" secondItem="gr3-jh-hlV" secondAttribute="height" id="sLd-yz-EVt"/>
+                    <constraint firstAttribute="bottom" secondItem="XUr-Qh-1zI" secondAttribute="bottom" constant="5" id="xGE-fj-eWk"/>
+                    <constraint firstItem="CU8-8P-8jQ" firstAttribute="height" secondItem="GJ0-Zg-4Gq" secondAttribute="height" id="xL0-Us-JXn"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="34" y="77.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="edu_icon_yue_dp" width="20" height="20"/>
+    </resources>
+</document>

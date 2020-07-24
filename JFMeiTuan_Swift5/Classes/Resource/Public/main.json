@@ -1,0 +1,32 @@
+ [
+      {
+          "RootVcName": "JFHomeViewController",
+          "SellectImgName": "pfb_tabbar_homepage_selected",
+          "TabbarTitle": "首页",
+          "NorImgName": "pfb_tabbar_homepage"
+      },
+      {
+          "RootVcName": "JFNearViewController",
+          "SellectImgName": "pfb_tabbar_merchant_selected",
+          "TabbarTitle": "附近",
+          "NorImgName": "pfb_tabbar_merchant"
+      },
+      {
+          "RootVcName": "JFwalkViewController",
+          "SellectImgName": "pfb_tabbar_discover_selected",
+          "TabbarTitle": "发现",
+          "NorImgName": "pfb_tabbar_discover"
+      },
+      {
+          "RootVcName": "JFOrderViewController",
+          "SellectImgName": "pfb_tabbar_order_selected",
+          "TabbarTitle": "订单",
+          "NorImgName": "pfb_tabbar_order"
+      },
+      {
+          "RootVcName": "JFMineViewController",
+          "SellectImgName": "pfb_tabbar_mine_selected",
+          "TabbarTitle": "我的",
+          "NorImgName": "pfb_tabbar_mine"
+      },
+  ]

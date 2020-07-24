@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="JFMineCollectionCell" customModule="JFMeiTuan_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="107" height="75"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="107" height="75"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="大笑" translatesAutoresizingMaskIntoConstraints="NO" id="0wB-h3-8v7">
+                        <rect key="frame" x="43.5" y="5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="5bb-MJ-J5g"/>
+                            <constraint firstAttribute="width" constant="20" id="SZL-Cw-NlU"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="美团" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THn-8Q-2rS">
+                        <rect key="frame" x="10" y="35" width="87" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="9tc-Mt-WRI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="0wB-h3-8v7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="7te-c4-vtV"/>
+                <constraint firstItem="0wB-h3-8v7" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="TVJ-mC-PWp"/>
+                <constraint firstItem="THn-8Q-2rS" firstAttribute="top" secondItem="0wB-h3-8v7" secondAttribute="bottom" constant="10" id="eAQ-9B-a19"/>
+                <constraint firstAttribute="trailing" secondItem="THn-8Q-2rS" secondAttribute="trailing" constant="10" id="mYw-gd-cHw"/>
+                <constraint firstItem="THn-8Q-2rS" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="qGj-oc-cWC"/>
+            </constraints>
+            <size key="customSize" width="107" height="75"/>
+            <connections>
+                <outlet property="desLabel" destination="THn-8Q-2rS" id="x7w-1X-CMh"/>
+                <outlet property="imageView" destination="0wB-h3-8v7" id="t3N-FG-6MO"/>
+            </connections>
+            <point key="canvasLocation" x="62.5" y="66.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="大笑" width="408" height="408"/>
+    </resources>
+</document>

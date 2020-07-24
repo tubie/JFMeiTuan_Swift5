@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="JFHomeTopCategoryCollectionCell" customModule="JFMeiTuan_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="109" height="106"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="109" height="106"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeFeatureTZF" translatesAutoresizingMaskIntoConstraints="NO" id="2oN-Zp-cSB">
+                        <rect key="frame" x="29.5" y="10" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Yyr-hP-A83"/>
+                            <constraint firstAttribute="width" constant="50" id="kZ9-UJ-oef"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="keyPath" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="美食" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3oP-fi-5FW">
+                        <rect key="frame" x="0.0" y="70" width="109" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="3In-ek-SYR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="2oN-Zp-cSB" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="10" id="1aP-35-ajq"/>
+                <constraint firstItem="2oN-Zp-cSB" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="9B8-eu-eMY"/>
+                <constraint firstItem="3oP-fi-5FW" firstAttribute="top" secondItem="2oN-Zp-cSB" secondAttribute="bottom" constant="10" id="MbX-9P-3x0"/>
+                <constraint firstAttribute="trailing" secondItem="3oP-fi-5FW" secondAttribute="trailing" id="OPE-7q-PZa"/>
+                <constraint firstItem="3oP-fi-5FW" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Yng-It-9vt"/>
+            </constraints>
+            <size key="customSize" width="109" height="106"/>
+            <connections>
+                <outlet property="desLb" destination="3oP-fi-5FW" id="IUr-cu-1TX"/>
+                <outlet property="imgView" destination="2oN-Zp-cSB" id="C6D-bb-YzX"/>
+            </connections>
+            <point key="canvasLocation" x="63.5" y="82"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="homeFeatureTZF" width="500" height="333"/>
+    </resources>
+</document>
